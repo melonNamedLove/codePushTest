@@ -112,7 +112,11 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
             ),
-            Row(children: [Text('1 코드를 푸쉬함 3'), Text('1 코드를 푸쉬함 4')])
+            Row(children: [
+              Text('1 코드를 푸쉬함 3'),
+              Text('1 코드를 푸쉬함 4'),
+              Text('리눅스에서 코드를 푸쉬함 5')
+            ])
           ],
         ),
       ),
